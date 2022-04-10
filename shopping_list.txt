@@ -1,6 +1,6 @@
-brasno
-zejtin
-kakao
-jajca
-seker
+brasno x4
+zejtin x2
+kakao x2
+jajca x10
+seker x2
 
