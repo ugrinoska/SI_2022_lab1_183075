@@ -1,0 +1,54 @@
+git komandi
+git config --global user.email "marijaugrinoska6@gmail.com"
+
+git config --global user.name "Marija"
+
+git clone https://github.com/ugrinoska/SI_2022_lab1_183075.git
+
+git cd
+
+nano shopping_list.txt
+
+git commit -a -m "Add 5 items to the list"
+
+nano shopping_list.txt
+
+git commit -a -m "Add quantities to the items"
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+git checkout -b branch1
+git checkout -b branch2
+git push --set-upstream origin branch2
+git checkout branch1
+git push --set-upstream origin branch1
+nano shopping_list.txt
+
+$ git commit -a -m "Change quantity of item #5"
+warning: LF will be replaced by CRLF in shopping_list.txt.
+The file will have its original line endings in your working directory
+[branch1 bcd4b9e] Change quantity of item #5
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git checkout main
+Switched to branch 'main'
+nano shopping_list.txt
+
+$ git commit -a -m "Change quantity of item #2"
+[main 570650a] Change quantity of item #2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git checkout branch2
+$ nano shopping_list.txt
+
+$ git commit -a -m "Modify item #4"
+[branch2 109682c] Modify item #4
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+nano shopping_list.txt
+
+$ git commit -a -m "Modify item #4 and add item #6"
+[branch2 337ffdf] Modify item #4 and add item #6
+ 1 file changed, 1 insertion(+)
+
+$ git merge branch2
+Your local changes to the following files would be overwritten by merge:
+  shopping_list.txt
